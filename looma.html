@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Snippet"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    * {
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: whitesmoke;
+    }
+    .nav-brand {
+      font-size: 30px;
+      padding: 0px;
+      margin: 0px;
+    }
+    nav {
+      text-align: right;
+      ul {
+        li {
+          display: inline-block;
+          padding: 0px 0px 20px 10px;
+          a {
+            text-decoration: none;
+            color: black;
+            font-size: larger;
+          }
+        }
+      }
+    }
+
+    .container {
+      padding: 30px 100px;
+      background: linear-gradient(rgba(255,255,255,0.5),rgba(255, 212, 168,));
+
+    }
+
+    .left {
+      background-color: whitesmoke;
+      float: left;
+      width: 25%;
+    }
+    .right {
+      background-color:whitesmoke;
+      float: right;
+      width: 25%;
+    }
+    .middle {
+      background-color:whitesmoke;
+      width: 50%;
+      margin: 0 auto;
+    }
+    .bgmid {
+      background-color: whitesmoke;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 200px;
+      margin: 10px;
+      width: initial;
+      opacity: 0.7;
+      border-radius: 15px;
+      transition: 3s ease;
+    }
+     .bgmid:hover {
+      transition: 2s;
+      background-position: top;
+    }
+    #midnav {
+      background-image: url(./Brown\ and\ White\ Simple\ Skincare\ Logo.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 200px;
+      margin: 10px;
+      width: initial;
+      opacity: 0.7;
+      border-radius: 15px;
+    }
+
+    .bgrig {
+      background-image: url(./art73phi.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: topcd desktop;
+      height: 300px;
+      margin: 10px;
+      width: initial;
+      opacity: 0.9;
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+      transition: 3s ease;
+      .bgtext {
+        color: rgb(79, 77, 77);
+        padding: 200px 10px;
+        font-family: snippet;
+      }
+    }
+    .bgrig:hover {
+      transition: 2s;
+      background-position: bottom;
+    }
+    .bt-bgrig {
+      background-image: url(./w1lhqpol.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top right;
+      height: 300px;
+      margin: 10px;
+      width: initial;
+      opacity: 0.9;
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+      transition: background-position 3s ease;
+      .bgtext {
+        color: white;
+        padding: 200px 10px;
+        font-family: snippet;
+      }
+    }
+    .bt-bgrig:hover {
+      transition: 2s;
+      background-position: left;
+    }
+
+    .bglef {
+      background-image:
+        url(./8nng9hij.png),
+        linear-gradient(rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top;
+      height: 300px;
+      margin: 10px;
+      width: initial;
+      opacity: 0.9;
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+      transition: background-position 3s ease;
+
+      .bgtext {
+        color: rgb(79, 77, 77);
+        padding: 200px 10px;
+        font-family: snippet;
+      }
+    }
+    .bglef:hover {
+      background-position: bottom;
+      transition: 2s;
+      .bgtext {
+        color: black;
+        padding: 200px 10px;
+        font-family: snippet;
+      }
+    }
+
+    .bt-bglef {
+      background-image:
+        url(./tg2bia3k.png),
+        linear-gradient(rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top left;
+      height: 300px;
+      margin: 10px;
+      width: initial;
+      opacity: 0.9;
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+      transition: background-position 2s ease;
+
+      .bgtext {
+        color: rgb(79, 77, 77);
+        padding: 200px 10px;
+        font-family: snippet;
+      }
+    }
+    .bt-bglef:hover {
+      background-position: right;
+      transition: 1s;
+      .bgtext {
+        color: black;
+        padding: 200px 10px;
+        font-family: snippet;
+      }
+    }
+    @media (max-width: 600px) {
+      .bgmid,
+      #midnav,
+      .left,
+      .right,
+      .bglef,
+      .bgrig,
+      .bt-bglef,
+      .bt-bgrig {
+        display: inline-block;
+        width: 100%;
+      }
+      .middle {
+        display: none;
+      }
+      body {
+        font-size: 14px; /* Smaller text for smaller screens */
+      }
+      .container {
+        padding: 10px;
+      }
+    }
+  </style>
+  <body>
+    <div class="container">
+      <span class="nav-brand">cOlio</span>
+      <nav>
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">more</a></li>
+        </ul>
+      </nav>
+      <aside class="left">
+        <div class="bglef">
+          <div class="bgtext">
+            <h1>Men</h1>
+          </div>
+        </div>
+        <div class="bt-bglef">
+          <div class="bgtext">
+            <p></p>
+            <h1>Women</h1>
+            <h2></h2>
+          </div>
+        </div>
+      </aside>
+      <aside class="right">
+        <div class="bgrig">
+          <div class="bgtext">
+            <p></p>
+            <h1>Women</h1>
+            <h2></h2>
+          </div>
+        </div>
+        <div class="bt-bgrig">
+          <div class="bgtext">
+            <p>Women</p>
+            <h1>English</h1>
+            <h2>style</h2>
+          </div>
+        </div>
+      </aside>
+      <section class="middle">
+        <div class="bgmid" style="background-image: url(./5u4ooe98.png)"></div>
+        <div class="bgmid" id="midnav"></div>
+        <div class="bgmid" style="background-image: url(./5j2qbfox.png)"></div>
+      </section>
+    </div>
+  </body>
+</html>
